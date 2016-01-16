@@ -2,7 +2,7 @@ VAGRANTFILE_API_VERSION ||= "2"
 
 box = "ubuntu/trusty64"
 name = "vagrant-swift"
-ipaddr = "192.168.0.40"
+ipaddr = "192.168.0.50"
 script = "provisioning/provision.sh"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
